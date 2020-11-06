@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "instagram-01.jpg",
+    "alt": "Instagram alt attribute"
+  },
+  {
+    "id": 2,
+    "image": "instagram-02.jpg",
+    "alt": "Instagram alt attribute"
+  },
+  {
+    "id": 3,
+    "image": "instagram-03.jpg",
+    "alt": "Instagram alt attribute"
+  },
+  {
+    "id": 4,
+    "image": "instagram-04.jpg",
+    "alt": "Instagram alt attribute"
+  },
+  {
+    "id": 5,
+    "image": "instagram-05.jpg",
+    "alt": "Instagram alt attribute"
+  },
+  {
+    "id": 6,
+    "image": "instagram-06.jpg",
+    "alt": "Instagram alt attribute"
+  }
+]

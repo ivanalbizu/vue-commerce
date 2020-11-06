@@ -1,0 +1,8 @@
+$color-black: #1e1e1e;
+$color-dark: #424242;
+$color-light: #F8F8F8;
+$color-gray: #EFEFEF;
+$color-red: #C00000;
+
+$color-dropdown: scale-color($color-black, $lightness: -30%);
+$transition: .28s all .12s ease-out;

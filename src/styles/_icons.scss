@@ -1,0 +1,186 @@
+$transition-hover-btn: background-color .2s ease-in-out .1s, color .2s ease-in-out .1s;
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
+  }
+  &--search {
+    &::before {
+      background-image: url(~@/assets/icons/icon-search.svg);
+    }
+  }
+  &--user {
+    &::before {
+      background-image: url(~@/assets/icons/icon-user.svg);
+    }
+  }
+  &--cart {
+    &::before {
+      background-image: url(~@/assets/icons/icon-cart.svg);
+    }
+  }
+}
+
+.logo-link {
+  --color-svg: $color-black;
+  display: flex;
+  &:hover {
+    --color-svg: red;
+  }
+}
+
+.add-to-cart {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  @include interpolate((padding-top,padding-bottom), 320px, 1480px, 6px, 8px);
+  @include interpolate((padding-left,padding-right), 320px, 1480px, 10px, 15px);
+  border: 1px solid $color-black;
+  transition: $transition-hover-btn;
+  &::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    
+    -webkit-mask: url(~@/assets/icons/icon-cart.svg) no-repeat center;
+    mask: url(~@/assets/icons/icon-cart.svg) no-repeat center;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: $color-black;
+    transition: $transition-hover-btn;
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: $color-black;
+    transition: $transition-hover-btn;
+    &::before {
+      background-color: #fff;
+      transition: $transition-hover-btn;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  @include interpolate((padding-top,padding-bottom), 320px, 1480px, 6px, 8px);
+  @include interpolate(padding-left, 320px, 1480px, 10px, 25px);
+  @include interpolate(padding-right, 320px, 1480px, 10px, 15px);
+  background-color: $color-black;
+  color: #fff;
+  border: 1px solid $color-black;
+  transition: $transition-hover-btn;
+  &--angle-right {
+    &::after {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 8px;
+      @include interpolate(margin-left, 320px, 1480px, 10px, 25px);
+      
+      -webkit-mask: url(~@/assets/icons/icon-angle-right.svg) no-repeat center;
+      mask: url(~@/assets/icons/icon-angle-right.svg) no-repeat center;
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: #fff;
+      transition: $transition-hover-btn;
+    }
+  }
+  &:hover,
+  &:focus {
+    color: $color-black;
+    background-color: #fff;
+    transition: $transition-hover-btn;
+    &::after {
+      background-color: $color-black;
+      transition: $transition-hover-btn;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &--outline {
+    border: 1px solid $color-black;
+    background-color: #fff;
+    color: $color-black;
+  }
+}
+
+.label-submit {
+  display: inline-flex;
+  padding: 2px;
+  border: 2px solid transparent;
+  transition: border-color .3s ease-in-out;
+  .input-text {
+    font-size: 20px;
+    padding: 17px 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+  }
+  .input-submit {
+    font-size: 20px;
+    padding: 17px 20px;
+    background-color: $color-black;
+    color: #fff;
+    border-width: 1px 1px 1px 2px;
+    border-style: solid;
+    border-color: transparent;
+    transition: all .3s ease-in-out;
+    &:focus,
+    &:hover {
+      background-color: #fff;
+      color: #1e1e1e;
+      border-color: #1e1e12;
+      transition: all .2s ease-in-out .1s;
+    }
+  }
+  input {
+    outline: none;
+  }
+  &:hover,
+  &:focus-within {
+    border-color: #fff;
+    transition: border-color .2s ease-in-out .1s;
+  }
+}
+
+.rrss {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33px;
+  height: 33px;
+  margin: 0 5px;
+  &--facebook {
+    background-image: url(~@/assets/icons/icon-facebook.svg);
+  }
+  &--twitter {
+    background-image: url(~@/assets/icons/icon-twitter.svg);
+  }
+  &--flickr {
+    background-image: url(~@/assets/icons/icon-flickr.svg);
+  }
+  &--linkedin {
+    background-image: url(~@/assets/icons/icon-linkedin.svg);
+  }
+  &--pinterest {
+    background-image: url(~@/assets/icons/icon-pinterest.svg);
+  }
+  &--vimeo {
+    background-image: url(~@/assets/icons/icon-vimeo.svg);
+  }
+}

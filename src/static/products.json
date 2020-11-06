@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": "product-01.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Pop Trading",
+    "current_price": "80,60 €",
+    "old_price": "120,30 €",
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 2,
+    "image": "product-02.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Runner",
+    "current_price": "40,15 €",
+    "old_price": null,
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 3,
+    "image": "product-03.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Runner fast",
+    "current_price": "80,60 €",
+    "old_price": "120,30",
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 4,
+    "image": "product-04.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Rolling",
+    "current_price": "75,75 €",
+    "old_price": "89,55 €",
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 5,
+    "image": "product-02.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Pop Trading",
+    "current_price": "80,60 €",
+    "old_price": "120,30 €",
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 6,
+    "image": "product-04.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Runner",
+    "current_price": "40,15 €",
+    "old_price": null,
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 7,
+    "image": "product-01.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Runner fast",
+    "current_price": "80,60 €",
+    "old_price": "120,30",
+    "button_txt": "Add to cart"
+  },
+  {
+    "id": 8,
+    "image": "product-03.jpg",
+    "alt": "Alt product attribute",
+    "href": "#!",
+    "title": "Rolling",
+    "current_price": "75,75 €",
+    "old_price": "89,55 €",
+    "button_txt": "Add to cart"
+  }
+]

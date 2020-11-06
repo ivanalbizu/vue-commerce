@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "image": "we-01.jpg",
+    "alt": "Alt who attribute",
+    "title": "Who we are",
+    "content": "<p class='t-we-txt'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus.</p><p class='t-we-txt'>Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa.</p>",
+    "href": "#!",
+    "button_txt": "Know more",
+    "cls": "",
+    "reverse": false
+  },
+  {
+    "id": 2,
+    "image": "we-02.jpg",
+    "alt": "Alt what attribute",
+    "title": "What we do",
+    "content": "<p class='t-we-txt'>Lorem ipsum dolor sit amet, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus.</p><p class='t-we-txt'>Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa.</p>",
+    "href": "#!",
+    "button_txt": "Know more",
+    "cls": "we-article--reverse",
+    "reverse": true
+  }
+]

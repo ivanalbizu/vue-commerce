@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Roboto:wght@300;400&display=swap');
+
+.t-menu-preheader {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0;
+  padding: 5px 7px;
+}
+.t-menu-header {
+  font-family: 'Roboto', sans-serif;
+  @include interpolate(font-size, 320px, 1480px, 16px, 18px);
+  font-variant: small-caps;
+  font-weight: 300;
+  color: $color-black;
+  letter-spacing: .2px;
+  padding: 18px 13px;
+  white-space: nowrap;
+  &--sec {
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    padding: 5px 12px;
+    text-transform: lowercase;
+  }
+  &--submenu {
+    padding: .3em 1em;
+  }
+}
+.t-section {
+  font-family: 'Poppins', sans-serif;
+  &::after {
+    content: "";
+    display: block;
+    margin: 10px auto 10px;
+    @include interpolate(width, 320px, 1480px, 60px, 90px);
+    @include interpolate(height, 320px, 1480px, 2px, 4px);
+    background-color: $color-black;
+  }
+}
+.t-subsection {
+  font-family: 'Poppins', sans-serif;
+  @include interpolate(font-size, 320px, 1480px, 14px, 16px);
+}
+.t-subscribe {
+  @include interpolate(font-size, 320px, 1480px, 30px, 45px);
+  color: #fff;
+  letter-spacing: 0;
+  @include interpolate(margin-bottom, 320px, 1480px, 30px, 45px);
+  text-transform: uppercase;
+  .line-1 { display: block;}
+}
+.t-we {
+  @include interpolate(font-size, 320px, 1480px, 18px, 20px);
+  @include interpolate(padding-bottom, 320px, 1480px, 18px, 20px);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.t-we-txt {
+  @include interpolate(font-size, 320px, 1480px, 14px, 16px);
+  @include interpolate(padding-bottom, 320px, 1480px, 14px, 16px);
+  &:last-of-type {
+    @include interpolate(padding-bottom, 320px, 1480px, 24px, 36px);
+  }
+  font-weight: 300;
+  letter-spacing: .3px;
+  line-height: 1.4;
+}
+.t-footer {
+  font-size: 20px;
+  font-variant: small-caps;
+  color: #fff;
+  @include interpolate(padding-bottom, 320px, 1480px, 18px, 20px);
+}
+.t-slider-title {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.t-slider-content {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+.t-slider-date {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: .3px;
+}
+.t-slider-tags {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: .3px;
+}
+.t-footer-link {
+  font-size: 14px;
+  color: #fff;
+}
+.t-footer-copy {
+  font-size: 14px;
+  color: #fff;
+}
